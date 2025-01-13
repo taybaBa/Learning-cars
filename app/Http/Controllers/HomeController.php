@@ -11,13 +11,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-//        return View::make('home.index');
-
-
-        return view('home.index')->with('name','Tayyba')->with('surname','bashir')->with('job','<b>Software Engineer</b>')
-            ->with('hobbies',['<b>Reading</b>','<b>Writing</b>'])
-            ->with('country','Pakistan')
-            ->with('cars',['bmw','toyaita','honda']);
+        return view('home.index');
 
     }
 }
