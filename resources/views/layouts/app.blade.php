@@ -1,3 +1,8 @@
-<div>
-    <!-- Be present above all else. - Naval Ravikant -->
-</div>
+@extends('layouts.clean')
+@section('childContent')
+   @include('layouts.partials.header')
+    @yield('content')
+    <footer></footer>
+@endsection
+
+
