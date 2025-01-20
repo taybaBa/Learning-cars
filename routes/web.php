@@ -4,8 +4,8 @@ use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CarController;
 Route::get('/', [\App\Http\Controllers\HomeController::class,'index']);
-
-
+Route::get('/signup',[\App\Http\Controllers\SignUpController::class,'create']);
+Route::get('/login',[\App\Http\Controllers\LoginController::class,'index']);
 
 
 
